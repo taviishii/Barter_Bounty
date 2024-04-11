@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    background-color: rgba(51, 3, 77, 0.6);
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: #FFFF8D;
+    font-family: Helvetica;
+}
+
+.custom-navbar {
+    background-color: rgba(51, 3, 77, 0.6);
+}
+
+/* .logo {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+} */
+
+
+
+.Upload {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    background: lightgrey;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.card img {
+    width: 250px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    width: 150px;
+    background: rgb(126, 171, 230);
+    color: black;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.card input {
+    display: none;
+}
+
+.form-container {
+    margin-top: 10px;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    min-height: 200px;
+    border-radius: 5px;
+    background: lightgrey;
+
+}
+
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+
+.image-upload-button {
+    margin: 10px;
+    background-color: #4CAF50;
+    position: relative;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image-upload-button:hover {
+    background-color: #3e8e41;
+}
+
+
+.form-container .inputbox {
+    position: relative;
+    margin: 7px 7px;
+    width: 775px;
+    border-bottom: 1px solid #b6b2b2;
+
+}
+
+.form-container .inputbox input {
+    width: 100%;
+    height: 43px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px 0 5px;
+    color: #423a3a;
+    font-size: 16px;
+
+}
+
+
+input::placeholder {
+    color: rgb(94, 90, 90);
+}
+
+
+.footer {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    height: 50px;
+    border: 2px solid;
+    background-color: black;
+    overflow: hidden;
+}
+
+.footer .text-center {
+    position: relative;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
