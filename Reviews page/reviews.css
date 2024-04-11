@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: rgba(51, 3, 77, 0.6);
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #FFFF8D;
+    font-family: 'sans-serif',cursive;
+}
+.nav-item{
+    color: #FFFF8D;
+    font-family: 'sans-serif';
+}
+.custom-navbar{
+    background-color:  rgba(51, 3, 77, 0.6);
+} 
+.title{
+    color: #FFFF8D;
+    text-align: center;
+    background-color: rgba(51, 3, 77, 0.6);
+}
+h1{
+    font-family:'sans-serif';
+    text-decoration: underline;
+}
+h2{
+    font-family: Helvetica;
+    font-style: italic;
+}
+#points{
+    color: black;
+}
+.screen{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(51, 3, 77, 0.6);
+}
+.container{
+    width: 200vh;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    gap: 1cm;
+
+}
+.name{
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+}
+.city{
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 18px;
+}
+.card{
+    height: 50vh;
+    background-color: #D9D9D9;
+    color: black;
+    box-shadow: 0cap;
+    text-align: justify;
+    
+}
+.morereviews{
+    text-align: center;
+    display: flex;
+    width: 200vh;
+    height: 8vh;
+    background-color: white;
+    color: black;
+    box-shadow: inset;
+    padding-right: 40px;
+}
+.reviewbutton{
+    align-self: center;
+    font-size: large;
+    text-decoration: underline;
+    color: #FFFF8D;
+    background-color: rgba(239, 93, 168, 0.65);
+    height: 40px;
+    width: 90px;
+    border-radius: 20%;
+    border-color: rgba(239, 93, 168, 0.65);
+    color: #FFFF8D;
+
+}

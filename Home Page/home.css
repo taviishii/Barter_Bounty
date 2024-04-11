@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.custom-navbar{
+    background-color: rgba(51, 3, 77, 0.6);
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #FFFF8D;
+    font-family: 'sans serif';
+}
+.carousel-slide{
+    height: 600px;
+}
+.feature col{
+    background-color: #D9D9D9;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
