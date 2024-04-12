@@ -15,6 +15,13 @@
         <div class="Container">
             <!-- HEADER -->
             <nav class="navbar navbar-expand-lg custom-navbar">
+                <div class="logo">
+
+                    <!-- <img src="logo.jpeg" id="photo" alt="logo"> -->
+
+
+
+            </div>
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         BarterBounty
@@ -50,7 +57,7 @@
                 <!-- IMAGE UPLOAD CONTAINER -->
                     <div class="Hero">
                         <div class="card">
-                            <img src="Upload.png" id="photo" alt="Upload Image" for="input-file">
+                            <img src="upload.jpg" id="photo" alt="Upload Image" for="input-file">
                             <label for="input-file">
                                 Choose Image
                             </label>
@@ -75,16 +82,38 @@
                         <input type="text" name="Item Name" placeholder="Item Name" />
                     </div>
                     <div class="inputbox">
-                        <i class='bx bxs-envelope'></i>
-                        <input type="text" name="Negotiable Point range" placeholder="Negotiable Point range" />
-                    </div>
-                    <div class="inputbox">
                         <i class='bx bxs-lock'></i>
                         <input type="text" name="Product Description" placeholder="Product Description" />
                     </div>
                     <div class="inputbox">
                         <i class='bx bxs-lock-alt'></i>
-                        <input type="text" name="Category" placeholder="Category" />
+                        <!-- <input type="text" name="Category" placeholder="Category" /> -->
+                        <form action="/action_page.php">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Furniture
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  Electronic Appliance
+                                </label>
+                              </div>
+                              <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Vehicular Parts/Vehicle
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+  <label class="form-check-label" for="flexCheckChecked">
+    Kitchen Items/Crockery
+  </label>
+</div>
+                          </form>
                     </div>
                     <div class="inputbox">
                         <i class='bx bxs-user'></i>
@@ -95,6 +124,14 @@
                         <input type="text" name="Any Other details" placeholder="Any Other details (Optional)" />
                     </div>
                     <button class="image-upload-button">Upload</button>
+                    <!-- <button  class="image-upload-button"></button> -->
+                    <button class="image-upload-button" onclick="redirectToURL('upload.html')">Add another item</button>
+
+<script>
+    function redirectToURL(url) {
+        window.location.href = url;
+    }
+</script>
                 </div>
             </div>
 
