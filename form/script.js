@@ -43,8 +43,3 @@ function validation() {
 //     popup.classList.remove("open-slide");
 // }
 // ----------------------------------------------
-
-function navigateTo(url)
- {
-    window.location.href = url;
-}
