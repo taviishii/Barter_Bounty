@@ -8,11 +8,11 @@
 .navbar-brand{
     font-size: 30px;
     color: #FFFF8D;
-    font-family: 'sans-serif',cursive;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .nav-item{
     color: #FFFF8D;
-    font-family: 'sans-serif';
+    font-family: 'Poppins', sans-serif;
 }
 .custom-navbar{
     background-color:  rgba(51, 3, 77, 0.6);
@@ -23,11 +23,11 @@
     background-color: rgba(51, 3, 77, 0.6);
 }
 h1{
-    font-family:'sans-serif';
+    font-family: 'Poppins', sans-serif;
     text-decoration: underline;
 }
 h2{
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
 }
 #points{
