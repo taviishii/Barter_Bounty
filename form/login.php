@@ -23,7 +23,7 @@ if($result)
 
         if($user_data['Pass']== $Pass)
         {
-            header("location:..\Barter_Bounty\Upload Page\upload.html");
+            header("location:http://localhost/uploads/index.php");
             die;
         }
     }
@@ -45,7 +45,7 @@ else{
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
-    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="ekaurstyle.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
         integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
 </head>
